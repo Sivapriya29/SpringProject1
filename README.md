@@ -8,12 +8,35 @@ One Login page possess 3 kind of login for HOD, Engineer and Employee as well.
 If employee is new to this portal he have to register himself/herself first using signup form provided specifically for new employees.
 Each user have to login using their username and password and have to select their domain as HOD/Engineer/Employee
 
+EMPLOYEE PORTAL
+---------------
 If the employee has some complaint ,he can raise complaint using his/her portal for existing user.
 When the employee logs in to this portal he/she can be able access: 
                      Update Employee  
                      Register a Complaint 
                      View status of complaint.
 Main access is through this portal he/she can raise a complaint for their dysfunction.
+
+HOD PORTAL
+-----------
+If the employee has some complaint ,HOD can assign complaint using his/her portal to existing engineer.
+When the HOD logs in to this portal he/she can be able access: 
+                     Add Engineer
+                     Assign task
+                     Display engineer status
+                     Display complaint details
+                     Complaint allocation details 
+Main access is through this portal he/she can assign a complaint for their dysfunction
+
+ENGINEER PORTAL
+---------------
+If the engineer has some complaint assigned by HOD.
+The Engineer can solve the complaint and update the status of the complaint using his/her portal for existing user.
+When the engineer logs in to this portal he/she can be able access: 
+                     View task
+                     Complaint Description
+                     Update status
+Main access is through this portal engineer can solve the complaint for the employee dysfunction.
 
 Engineer task status module is used to track the status of the complaint assigned to one particular engineer.
 Using this we can also able to get the solution for the complaint for which the engineer has raised.
